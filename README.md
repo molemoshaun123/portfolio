@@ -1,51 +1,35 @@
 # Molemo Shaun Kekana — Portfolio Website
 
-Personal portfolio website of Molemo Shaun Kekana showcasing full-stack projects, cybersecurity learning journey, certifications, and academic work.
+> **Live Demo:** [https://molemoshaun123.github.io/portfolio/](https://molemoshaun123.github.io/portfolio/)
 
-## ✨ Features Included
-- 🚀 **Hero Section** with quick intro, status badge, and **Direct CV Download**
-- 📊 **Quick Stats Bar** (94d TryHackMe streak, 5+ projects, 3 awards, 2+ yrs lab support)
-- 🧑‍💻 **Interactive Project Filtering** (All, Full-Stack & Web, Cybersecurity & AI, Hackathons)
-- 🛡️ **TryHackMe Spotlight Card** with verified profile link & completed modules
-- 📜 **Certifications & Honours** (Google Cybersecurity, Cisco, University of Limpopo awards)
-- 🧑‍🏫 **Verified Academic References** (Supervisors at University of Limpopo)
-- 💬 **Direct WhatsApp & Email Contact**
+Personal portfolio of **Molemo Shaun Kekana**, Final-Year BSc Mathematical Science student majoring in Computer Science and Statistics at the University of Limpopo.
 
 ---
 
-## 🌐 How to Host on GitHub Pages (Step-by-Step)
+## 🚀 Overview
 
-### Step 1: Initialize Git and Commit
-Open PowerShell or Terminal in this folder and run:
-```bash
-git init
-git add .
-git commit -m "Initial commit of portfolio website"
-```
+A fast, responsive, and accessible portfolio showcasing full-stack web applications, cybersecurity penetration testing practice, academic leadership, and data analysis projects.
 
-### Step 2: Create a Repository on GitHub
-1. Log in to [GitHub](https://github.com)
-2. Click **"+"** (top-right) → **"New repository"**
-3. Name it either:
-   - `molemoshaun123.github.io` *(Gives you the cleanest URL: `https://molemoshaun123.github.io`)*
-   - or `portfolio` *(Gives you `https://molemoshaun123.github.io/portfolio`)*
-4. Set it to **Public**
-5. Do **NOT** check "Add README" (you already have one!)
-6. Click **Create repository**
+### 🌟 Featured Highlights
+- **AI Workshop Management System:** Full-stack vehicle repair platform with 11 Google Gemini AI features ([Live Demo](https://ai-workshop-21js.vercel.app)).
+- **Limpopo Varsity Hackathon 2025:** 4th Annual LVH (Hack4Mzansi) collaborative regional project.
+- **DDoS Detection with AI:** Research collaboration supporting honours research with traffic analysis and detection models.
+- **ThinkAble Website:** Accessibility-first platform supporting neurodiverse students.
+- **Cybersecurity Practice:** 94-day TryHackMe streak, networking protocols, Linux fundamentals, and Wireshark packet analysis.
 
-### Step 3: Push Your Code
-In your terminal, copy and run the commands GitHub gives you:
-```bash
-git branch -M main
-git remote add origin https://github.com/molemoshaun123/<your-repo-name>.git
-git push -u origin main
-```
+---
 
-### Step 4: Turn on GitHub Pages
-*(If you named your repo `molemoshaun123.github.io`, it turns on automatically!)*
-Otherwise:
-1. Go to your repo on GitHub → **Settings**
-2. On the left sidebar, click **Pages**
-3. Under **Branch**, select `main` and `/ (root)`
-4. Click **Save**
-5. Wait 1-2 minutes — your portfolio is live with a free SSL certificate!
+## 🛠️ Tech Stack & Skills
+- **Languages:** Python, Java, C++, SQL, JavaScript, HTML5/CSS3
+- **Frameworks & Libs:** React, Node.js, Express.js, Tailwind CSS
+- **Databases:** PostgreSQL, Neon Cloud Database, SQL Query Optimization
+- **Security & Networking:** TCP/IP, OSI Model, Wireshark, Reconnaissance, Enumeration, Active Directory
+- **Data & Statistics:** Descriptive Statistics, Probability, Hypothesis Testing, Python Data Analysis
+
+---
+
+## 📬 Contact & Connect
+- **Portfolio:** [molemoshaun123.github.io/portfolio](https://molemoshaun123.github.io/portfolio/)
+- **Email:** [molemoshaun373@gmail.com](mailto:molemoshaun373@gmail.com)
+- **TryHackMe:** [molemoshaun373](https://tryhackme.com/p/molemoshaun373)
+- **GitHub:** [@molemoshaun123](https://github.com/molemoshaun123)
