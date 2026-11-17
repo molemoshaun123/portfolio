@@ -605,23 +605,30 @@
         .skill-tags {
             display: flex;
             flex-wrap: wrap;
-            gap: 8px;
+            gap: 10px;
         }
         .skill-tag {
-            background: rgba(108, 99, 255, 0.1);
+            background: rgba(108, 99, 255, 0.08);
             border: 1px solid rgba(108, 99, 255, 0.2);
             color: var(--text-secondary);
-            padding: 6px 14px;
+            padding: 8px 16px;
             border-radius: 50px;
-            font-size: 0.85rem;
+            font-size: 0.88rem;
             font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
             transition: var(--transition);
+        }
+        .skill-tag i {
+            font-size: 1rem;
         }
         .skill-tag:hover {
             background: var(--accent-glow-strong);
             border-color: var(--accent);
             color: var(--text-primary);
-            transform: scale(1.05);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(108, 99, 255, 0.25);
         }
 
         /* ===== EXPERIENCE ===== */
@@ -1061,9 +1068,9 @@
                 Molemo Shaun<br>
                 <span class="highlight">Kekana</span><span class="typing-cursor"></span>
             </h1>
-            <p class="hero-tagline">BSc Mathematical Science Student (Computer Science & Statistics)</p>
+            <p class="hero-tagline">University Student in Limpopo · Coding, Security & Data</p>
             <p class="hero-desc">
-                Final-year BSc Mathematical Science student at the University of Limpopo, majoring in Computer Science and Statistics. I work as a Student Laboratory Supervisor and Lab Assistant, build full-stack web apps with SQL databases, study cybersecurity, and use statistics to solve data problems.
+                Welcome to my portfolio! I am finishing my final year in Computer Science and Statistics. I enjoy solving practical problems: helping students learn to code in the university labs, building web apps from scratch, and practicing network security every single day.
             </p>
             <div class="hero-buttons">
                 <a href="Molemo_Shaun_Kekana_CV.pdf" download="Molemo_Shaun_Kekana_CV.pdf" class="btn btn-primary">
@@ -1118,16 +1125,16 @@
         <div class="about-grid">
             <div class="about-text">
                 <p>
-                    Final-year BSc Mathematical Science student at the University of Limpopo, majoring in Computer Science and Statistics.
+                    I am in my final year of a <strong>BSc in Mathematical Science</strong> at the <strong>University of Limpopo</strong>, where I double-major in Computer Science and Statistics.
                 </p>
                 <p>
-                    I have worked as a Student Laboratory Supervisor and Lab Assistant, where I did IT technician work, used Active Directory and helped students with programming and SQL.
+                    Over the past two years, I have worked directly in our campus computer labs as a <strong>Student Laboratory Supervisor</strong> and <strong>Lab Assistant</strong>. My day-to-day work is very hands-on: I keep lab machines updated, manage student logins on Active Directory, and sit down with students to help them write and debug code in C++, Java, and SQL.
                 </p>
                 <p>
-                    I build full-stack web apps with SQL databases, and I am learning cybersecurity and penetration testing. I use statistics to analyse data and solve problems.
+                    When I am building my own projects, I create full-stack web applications backed by real SQL databases. I also spend time analyzing datasets with tools like <strong>SAS, SPSS, and Python</strong>, and practicing penetration testing and packet analysis on TryHackMe.
                 </p>
                 <p>
-                    I am applying for entry-level and graduate roles that match my degree, including IT Technician, IT Support, Software Developer, SQL and Database Administrator, Data Analyst, Junior Cybersecurity Analyst and Penetration Tester.
+                    I am ready to bring my energy, curiosity, and practical skills into graduate and entry-level roles in <strong>IT Support, Software Development, Database Administration, Data Analysis, or Cybersecurity</strong>.
                 </p>
             </div>
             <div class="info-cards">
@@ -1171,14 +1178,14 @@
             <div class="skill-category">
                 <div class="skill-category-header">
                     <i class="fas fa-code" style="color: var(--accent)"></i>
-                    <h3>Programming</h3>
+                    <h3>Programming Languages</h3>
                 </div>
                 <div class="skill-tags">
-                    <span class="skill-tag">Python</span>
-                    <span class="skill-tag">Java</span>
-                    <span class="skill-tag">C++</span>
-                    <span class="skill-tag">SQL</span>
-                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag"><i class="fab fa-python" style="color: #3776ab;"></i> Python</span>
+                    <span class="skill-tag"><i class="fab fa-java" style="color: #f89820;"></i> Java</span>
+                    <span class="skill-tag"><i class="fas fa-file-code" style="color: #00599c;"></i> C++</span>
+                    <span class="skill-tag"><i class="fas fa-database" style="color: #4479a1;"></i> SQL</span>
+                    <span class="skill-tag"><i class="fab fa-js" style="color: #f7df1e;"></i> JavaScript</span>
                 </div>
             </div>
             <div class="skill-category">
@@ -1187,39 +1194,38 @@
                     <h3>Web Development</h3>
                 </div>
                 <div class="skill-tags">
-                    <span class="skill-tag">React</span>
-                    <span class="skill-tag">Node.js</span>
-                    <span class="skill-tag">Express.js</span>
-                    <span class="skill-tag">Tailwind CSS</span>
-                    <span class="skill-tag">Full-Stack</span>
-                    <span class="skill-tag">REST APIs</span>
+                    <span class="skill-tag"><i class="fab fa-react" style="color: #61dafb;"></i> React</span>
+                    <span class="skill-tag"><i class="fab fa-node-js" style="color: #68a063;"></i> Node.js</span>
+                    <span class="skill-tag"><i class="fas fa-server" style="color: #b0b0c0;"></i> Express.js</span>
+                    <span class="skill-tag"><i class="fas fa-wind" style="color: #38b2ac;"></i> Tailwind CSS</span>
+                    <span class="skill-tag"><i class="fas fa-layer-group" style="color: var(--accent-light);"></i> Full-Stack</span>
+                    <span class="skill-tag"><i class="fas fa-network-wired" style="color: var(--cyan);"></i> REST APIs</span>
                 </div>
             </div>
             <div class="skill-category">
                 <div class="skill-category-header">
                     <i class="fas fa-database" style="color: var(--green)"></i>
-                    <h3>Databases</h3>
+                    <h3>Databases & Cloud</h3>
                 </div>
                 <div class="skill-tags">
-                    <span class="skill-tag">PostgreSQL</span>
-                    <span class="skill-tag">SQL Queries</span>
-                    <span class="skill-tag">Neon (Cloud)</span>
-                    <span class="skill-tag">Database Design</span>
+                    <span class="skill-tag"><i class="fas fa-database" style="color: #336791;"></i> PostgreSQL</span>
+                    <span class="skill-tag"><i class="fas fa-terminal" style="color: var(--green);"></i> Writing Queries</span>
+                    <span class="skill-tag"><i class="fas fa-cloud" style="color: #00e699;"></i> Neon Cloud</span>
+                    <span class="skill-tag"><i class="fas fa-sitemap" style="color: var(--accent-light);"></i> Database Design</span>
                 </div>
             </div>
             <div class="skill-category">
                 <div class="skill-category-header">
                     <i class="fas fa-shield-alt" style="color: var(--orange)"></i>
-                    <h3>Cybersecurity</h3>
+                    <h3>Cybersecurity & Networking</h3>
                 </div>
                 <div class="skill-tags">
-                    <span class="skill-tag">TCP/IP</span>
-                    <span class="skill-tag">Reconnaissance</span>
-                    <span class="skill-tag">Enumeration</span>
-                    <span class="skill-tag">Wireshark</span>
-                    <span class="skill-tag">Linux</span>
-                    <span class="skill-tag">OSI Model</span>
-                    <span class="skill-tag">Pen Testing</span>
+                    <span class="skill-tag"><i class="fas fa-network-wired" style="color: var(--cyan);"></i> TCP/IP</span>
+                    <span class="skill-tag"><i class="fas fa-search" style="color: #ff6b6b;"></i> Recon & Enumeration</span>
+                    <span class="skill-tag"><i class="fas fa-microscope" style="color: #1679a7;"></i> Wireshark</span>
+                    <span class="skill-tag"><i class="fab fa-linux" style="color: #fcc624;"></i> Linux</span>
+                    <span class="skill-tag"><i class="fas fa-cubes" style="color: var(--accent-light);"></i> OSI Model</span>
+                    <span class="skill-tag"><i class="fas fa-user-secret" style="color: var(--orange);"></i> Pen Testing</span>
                 </div>
             </div>
             <div class="skill-category">
@@ -1228,28 +1234,27 @@
                     <h3>Statistics & Data Analysis</h3>
                 </div>
                 <div class="skill-tags">
-                    <span class="skill-tag">SAS</span>
-                    <span class="skill-tag">SPSS</span>
-                    <span class="skill-tag">Descriptive Statistics</span>
-                    <span class="skill-tag">Probability</span>
-                    <span class="skill-tag">Hypothesis Testing</span>
-                    <span class="skill-tag">Regression Analysis</span>
-                    <span class="skill-tag">Data Interpretation</span>
-                    <span class="skill-tag">Data Analysis with Python</span>
+                    <span class="skill-tag"><i class="fas fa-chart-line" style="color: #0077c8;"></i> SAS</span>
+                    <span class="skill-tag"><i class="fas fa-chart-pie" style="color: #cf102d;"></i> SPSS</span>
+                    <span class="skill-tag"><i class="fab fa-python" style="color: #3776ab;"></i> Python Data Analysis</span>
+                    <span class="skill-tag"><i class="fas fa-balance-scale" style="color: var(--green);"></i> Hypothesis Testing</span>
+                    <span class="skill-tag"><i class="fas fa-chart-area" style="color: var(--orange);"></i> Regression Analysis</span>
+                    <span class="skill-tag"><i class="fas fa-dice" style="color: var(--accent-light);"></i> Probability</span>
+                    <span class="skill-tag"><i class="fas fa-lightbulb" style="color: #ffd166;"></i> Data Interpretation</span>
                 </div>
             </div>
             <div class="skill-category">
                 <div class="skill-category-header">
                     <i class="fas fa-tools" style="color: var(--accent-light)"></i>
-                    <h3>Tools & IT Support</h3>
+                    <h3>IT Support & Tools</h3>
                 </div>
                 <div class="skill-tags">
-                    <span class="skill-tag">Git & GitHub</span>
-                    <span class="skill-tag">Active Directory</span>
-                    <span class="skill-tag">Vercel</span>
-                    <span class="skill-tag">Render</span>
-                    <span class="skill-tag">Troubleshooting</span>
-                    <span class="skill-tag">Software Install</span>
+                    <span class="skill-tag"><i class="fab fa-git-alt" style="color: #f05032;"></i> Git</span>
+                    <span class="skill-tag"><i class="fab fa-github" style="color: #fff;"></i> GitHub</span>
+                    <span class="skill-tag"><i class="fas fa-id-badge" style="color: #0078d4;"></i> Active Directory</span>
+                    <span class="skill-tag"><i class="fas fa-play" style="color: #fff;"></i> Vercel</span>
+                    <span class="skill-tag"><i class="fas fa-cubes" style="color: #46e3b7;"></i> Render</span>
+                    <span class="skill-tag"><i class="fas fa-wrench" style="color: var(--orange);"></i> System Troubleshooting</span>
                 </div>
             </div>
         </div>
@@ -1258,21 +1263,21 @@
     <!-- Experience Section -->
     <section id="experience" class="reveal">
         <div class="section-label">Experience</div>
-        <h2 class="section-title">Where I've worked</h2>
+        <h2 class="section-title">Campus Work & Leadership</h2>
         <div class="timeline">
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-card">
-                    <span class="timeline-date">2026</span>
+                    <span class="timeline-date">2026 Academic Year</span>
                     <h3 class="timeline-title">Student Laboratory Supervisor</h3>
-                    <p class="timeline-subtitle">University of Limpopo — IT Technician & Team Lead</p>
+                    <p class="timeline-subtitle">University of Limpopo · Team Lead & IT Support</p>
                     <ul class="timeline-list">
-                        <li>Supervised the computer lab and led a team of student assistants</li>
-                        <li>Supported students with programming, SQL, and data problems</li>
-                        <li>Updated lab computers and installed software (IT technician duties)</li>
-                        <li>Reset passwords using Active Directory</li>
-                        <li>Helped students understand statistics in simple, clear language</li>
-                        <li>Awarded Certificate of Distinguished Service and Recognition</li>
+                        <li>Led our team of student assistants and made sure the computer lab ran smoothly every day.</li>
+                        <li>Installed new software, handled system updates, and kept lab machines healthy like an IT technician.</li>
+                        <li>Managed student logins and performed account password resets using Windows Active Directory.</li>
+                        <li>Worked one-on-one with students who got stuck on programming, database queries, and homework.</li>
+                        <li>Broke down difficult statistics and data concepts into simple, everyday language so students could understand.</li>
+                        <li>Awarded the Certificate of Distinguished Service and Recognition for leadership and professionalism.</li>
                     </ul>
                 </div>
             </div>
@@ -1281,13 +1286,13 @@
                 <div class="timeline-card">
                     <span class="timeline-date">2024 – 2025</span>
                     <h3 class="timeline-title">Computer Science Lab Assistant</h3>
-                    <p class="timeline-subtitle">University of Limpopo — Programming & SQL Support</p>
+                    <p class="timeline-subtitle">University of Limpopo · Programming & Database Mentoring</p>
                     <ul class="timeline-list">
-                        <li>Helped students with C++, Java, and SQL programming</li>
-                        <li>Assisted students in writing, testing, and fixing SQL queries</li>
-                        <li>Updated lab computers and provided technical support</li>
-                        <li>Used statistics knowledge to help students understand data results</li>
-                        <li>Awarded Certificates of Merit in 2024 and 2025</li>
+                        <li>Guided students step-by-step through their first programming assignments in C++, Java, and SQL.</li>
+                        <li>Showed students how to test, write, and fix SQL queries without crashing their databases.</li>
+                        <li>Diagnosed software errors and resolved computer crashes across lab workstations.</li>
+                        <li>Used my statistics background to help students interpret what their data graphs and charts really meant.</li>
+                        <li>Received Certificates of Merit in both 2024 and 2025 for outstanding student support.</li>
                     </ul>
                 </div>
             </div>
@@ -1316,14 +1321,14 @@
                     <p class="project-type">Full-Stack Web App</p>
                     <h3 class="project-title">AI Workshop Management System</h3>
                     <p class="project-desc">
-                        A vehicle workshop management app with Admin and Customer portals. Has 11 AI features powered by Google Gemini API — fault diagnosis, damage triage, repair cost estimates, and smart scheduling. Includes JWT auth, real-time messaging, and inventory management.
+                        A complete web application built for vehicle repair workshops. Workshop managers get an admin dashboard to handle parts inventory, mechanics, and customer bookings, while drivers get an easy portal to schedule visits. Features 11 smart tools powered by Google Gemini AI to inspect vehicle issues, guess repair costs, and plan service slots.
                     </p>
                     <div class="project-tech">
                         <span>React</span>
                         <span>Node.js</span>
                         <span>Express.js</span>
                         <span>PostgreSQL</span>
-                        <span>Gemini API</span>
+                        <span>Gemini AI</span>
                         <span>Tailwind CSS</span>
                     </div>
                     <div class="project-links">
@@ -1342,17 +1347,17 @@
                     <i class="fas fa-users-cog" style="color: var(--cyan)"></i>
                 </div>
                 <div class="project-body">
-                    <p class="project-type">Hackathon · Team Project</p>
+                    <p class="project-type">Hackathon · Team Prototype</p>
                     <h3 class="project-title">Limpopo Varsity Hackathon 2025</h3>
                     <p class="project-desc">
-                        Built a project at the 4th Annual Limpopo Varsity Hackathon (Hack4Mzansi) at the University of Limpopo. Teams used AI and IoT to solve real South African challenges like unemployment, food insecurity, and community safety.
+                        Built a working software prototype during the 4th Annual Limpopo Varsity Hackathon (Hack4Mzansi) at the University of Limpopo. Teaming up with other student innovators, we designed solutions combining AI and smart devices to help tackle youth unemployment and community safety in our local area.
                     </p>
                     <div class="project-tech">
                         <span>Hackathon</span>
-                        <span>AI</span>
-                        <span>IoT</span>
+                        <span>AI & IoT</span>
                         <span>TypeScript</span>
                         <span>Python</span>
+                        <span>Team Collaboration</span>
                     </div>
                     <div class="project-links">
                         <a href="https://github.com/molemoshaun123/Limpopo-Varsity-Hackathon" target="_blank" class="project-link">
@@ -1367,17 +1372,16 @@
                     <i class="fas fa-shield-virus" style="color: var(--red)"></i>
                 </div>
                 <div class="project-body">
-                    <p class="project-type">AI & Cybersecurity Research</p>
+                    <p class="project-type">Cybersecurity Research Collaboration</p>
                     <h3 class="project-title">DDoS Causal Onset Back-Tracing (COBT)</h3>
                     <p class="project-desc">
-                        Built a causal back-tracing and attribution model to assist an Honours student with their DDoS mitigation research project. Analyzed anomalous traffic spikes and attack vectors using Python.
+                        Partnered with a university Honours student on an important cybersecurity problem: when a website gets flooded by a DDoS attack, it is hard to tell where it started. We built Python analysis scripts to inspect sudden traffic spikes and trace back the initial attack source.
                     </p>
                     <div class="project-tech">
                         <span>Cybersecurity</span>
                         <span>DDoS Back-Tracing</span>
-                        <span>Research</span>
                         <span>Python</span>
-                        <span>Network Analysis</span>
+                        <span>Network Traffic Analysis</span>
                     </div>
                     <div class="project-links">
                         <a href="https://github.com/molemoshaun123/DDOS" target="_blank" class="project-link">
@@ -1392,16 +1396,16 @@
                     <i class="fas fa-brain" style="color: var(--green)"></i>
                 </div>
                 <div class="project-body">
-                    <p class="project-type">Web Application</p>
+                    <p class="project-type">Accessible Web Application</p>
                     <h3 class="project-title">ThinkAble Website</h3>
                     <p class="project-desc">
-                        An accessible website built to support neurodiverse students, especially those with dyslexia. Includes learning-support features and assistive design patterns that make reading and studying easier.
+                        An accessible website designed to make reading and learning easier for neurodiverse students, especially those with dyslexia. Includes high-legibility fonts, adjustable color contrast modes, and clean layouts that remove visual clutter so students can focus comfortably.
                     </p>
                     <div class="project-tech">
                         <span>HTML</span>
                         <span>CSS</span>
                         <span>JavaScript</span>
-                        <span>Accessibility</span>
+                        <span>Inclusive Design</span>
                     </div>
                     <div class="project-links">
                         <a href="https://github.com/molemoshaun123/ThinkAble" target="_blank" class="project-link">
@@ -1413,6 +1417,30 @@
 
             <div class="project-card" data-category="security">
                 <div class="project-banner cyber">
+                    <i class="fas fa-terminal" style="color: var(--orange)"></i>
+                </div>
+                <div class="project-body">
+                    <p class="project-type">Open-Source Learning Journey</p>
+                    <h3 class="project-title">Cybersecurity Journey & Notes</h3>
+                    <p class="project-desc">
+                        My public notes and lab write-ups as I learn hands-on penetration testing and network defense. Covers how internet packets travel, Wireshark captures, Linux setup, and network reconnaissance. Currently on an active 94-day continuous learning streak on TryHackMe.
+                    </p>
+                    <div class="project-tech">
+                        <span>TryHackMe (94d Streak)</span>
+                        <span>Linux</span>
+                        <span>Networking</span>
+                        <span>Wireshark</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/molemoshaun123/Cybersecurity-Journey-00" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> GitHub Repo
+                        </a>
+                        <a href="https://tryhackme.com/p/molemoshaun373" target="_blank" class="project-link">
+                            <i class="fas fa-flag"></i> TryHackMe
+                        </a>
+                    </div>
+                </div>
+            </div>
                     <i class="fas fa-terminal" style="color: var(--orange)"></i>
                 </div>
                 <div class="project-body">
@@ -1447,9 +1475,9 @@
                     <i class="fas fa-shield-alt thm-logo-icon"></i>
                     <span class="thm-tag"><i class="fas fa-fire"></i> TryHackMe Highlight</span>
                 </div>
-                <h3 style="font-size: 1.4rem; font-weight: 800; margin-bottom: 0.8rem; color: #fff;">Hands-on Cybersecurity & Ethical Hacking</h3>
+                <h3 style="font-size: 1.4rem; font-weight: 800; margin-bottom: 0.8rem; color: #fff;">Hands-on Cybersecurity & Networking Practice</h3>
                 <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1.2rem; line-height: 1.6;">
-                    Actively mastering defensive & offensive security through labs. Completed modules on HTTP, LAN, Networking Concepts, Windows Basics, The CIA Triad, and Linux Fundamentals with hands-on packet analysis using Wireshark.
+                    I practice network defense and security fundamentals daily on TryHackMe. I have completed modules covering HTTP, local networks, Windows basics, the security CIA triad, and Linux command-line tools, along with live packet analysis using Wireshark.
                 </p>
                 <a href="https://tryhackme.com/p/molemoshaun373?utm_campaign=social_share&utm_medium=social&utm_content=profile&cardVersion=240790419bd9&utm_source=copy&share_date=2026-11-16&sharerId=6807d46ef329d444bbdf8257" target="_blank" class="btn btn-outline" style="border-color: var(--red); color: #fff;">
                     <i class="fas fa-external-link-alt"></i> View Verified TryHackMe Profile
